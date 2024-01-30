@@ -43,13 +43,13 @@ public class Manav1 {
                     System.out.println("Kac kilo " + urunList.get(urunSecimi - 1) + " almak istersiniz");
                     kilo = scanner.nextInt();
                 }else if (urunSecimi ==6){
-                    System.out.println("Cikis yaptiniz");
+                    System.out.println("Cikis yaptiniz.");
                     System.exit(0);
                 }else {
-                    System.out.println("hatali giris yaptiniz");
+                    System.out.println("Hatali giris yaptiniz");
                 }
             }catch (Exception e){
-                System.out.println("hatali giris yaptiniz tekrar deneyiniz___");
+                System.out.println("Hatali giris yaptiniz tekrar deneyiniz___");
                 urunSecimi();
             }
 
